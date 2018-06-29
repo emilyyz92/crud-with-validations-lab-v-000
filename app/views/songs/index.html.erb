@@ -5,9 +5,11 @@
     <th>Title</th>
   </tr>
 </thread>
+<tbody>
   <tr>
     <% @songs.each do |song| %>
     <td><%=song.title%></td>
     <%end%>
   </tr>
+</tbody>
 </table>
