@@ -7,8 +7,9 @@
   </tr>
 </thread>
 <tbody>
+  <% @songs.each do |song| %>
   <tr>
-    <% @songs.each do |song| %>
+    
     <td><%=song.title%></td>
     <%end%>
   </tr>
