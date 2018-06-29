@@ -34,6 +34,9 @@ class SongsController < ApplicationController
     end
   end
 
+  def destroy
+  end
+
   private
 
   def song_param
